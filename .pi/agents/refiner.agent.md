@@ -5,6 +5,7 @@ tools: read, grep, find, ls, powershell, bash, edit, write
 argument-hint: "Active phase doc or rough plan, phase boundary, known constraints, and any prior planning artifacts to refine."
 systemPromptMode: append
 inheritProjectContext: true
+inheritSkills: true
 user-invocable: false
 ---
 You are a focused phase-refinement agent. Your job is to strengthen one already-selected phase at a time before implementation begins.

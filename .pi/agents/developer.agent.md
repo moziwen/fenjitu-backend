@@ -5,6 +5,8 @@ tools: read, grep, find, ls, powershell, bash, edit, write
 argument-hint: "Focused implementation task, relevant files, success criteria, and required verification."
 systemPromptMode: append
 inheritProjectContext: true
+inheritSkills: true
+skills: backend-change-delivery
 user-invocable: false
 ---
 You are a focused implementation agent. You take a single clearly-scoped coding task and complete it end to end.

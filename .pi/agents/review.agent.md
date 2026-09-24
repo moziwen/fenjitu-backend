@@ -5,6 +5,7 @@ tools: read, grep, find, ls, powershell, bash, edit, write
 argument-hint: "PR number or branch, relevant plan files, and any specific review focus areas or constraints."
 systemPromptMode: append
 inheritProjectContext: true
+inheritSkills: true
 defaultContext: fresh
 user-invocable: false
 ---
